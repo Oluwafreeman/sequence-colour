@@ -11,7 +11,7 @@ var userClickedPattern = [];
 var started = false;
 var level = 0;
 
-$(document).on("dblclick", function () {
+$("#level-title").on("click", function () {
   if (!started) {
     $("#level-title").text("Level " + level);
     nextSequence();
@@ -50,7 +50,7 @@ function checkAnswer(currentLevel) {
       $("body").removeClass("game-over");
     }, 1000);
 
-    $("#level-title").text("Game over, Double click to Restart");
+    $("#level-title").text("Game over, click here to Restart");
     startOver();
   }
 }
