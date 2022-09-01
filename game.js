@@ -1,5 +1,5 @@
 alert(
-  "Welcome to CAF Guessing Game \nYou have to keep track of the sequence from Level 1 \nLet's see how well your memory can serve you!"
+  "Welcome to CAF Sequence colour Game \nYou have to keep track of the sequence from Level 1 \nLet's see how well your memory can serve you!"
 );
 
 var buttonColors = ["red", "blue", "green", "yellow"];
